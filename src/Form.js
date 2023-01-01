@@ -6,7 +6,7 @@ function Form() {
     const onSubmit = function(e) {
         e.preventDefault()
         setErr(true)
-        console.log()
+        console.log(`email: ${formData.email}, nickname: ${formData.nickname}, adress: ${formData.adress}`)
     }
     const onChange = function(e){
         let data = e.currentTarget.value
